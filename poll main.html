@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title>Polls</title>
+         <script>
+              function fun()
+  {
+      var a=confirm("Your response has been recorded!");
+      if(a)
+      {
+        window.location.href="index.html";
+      }
+  } 
+            function fun1()
+            {
+      var a=confirm("Are You Sure?");
+      if(a)
+      {
+        window.location.href="poll main.html";
+      }
+  } 
+            </script>
+     </head>
+     <body>
+         <h3>POLLS</h3>
+         <form name="polls" id="polls">
+             <div>
+<p>1.What is your favourite programming language?</p>
+<p><input type="radio" name="question1" value="HTML">A. C</p>
+<p><input type="radio" name="question1" value="JAVA">B. C++</p>
+<p><input type="radio" name="question1" value="JS">C. JAVA</p>
+<p><input type="radio" name="question1" value="CSS">D. PYTHON</p>
+             </div>
+             <div>
+             <p>2.Which profession do you want to persue in future?</p>
+<p><input type="radio" name="question2" value="ENGINEER">A.ENGINEER</p>
+<p><input type="radio" name="question2" value="DOCTOR">B.DOCTOR</p>
+<p><input type="radio" name="question2" value="LAWYER">C.LAWYER</p>
+<p><input type="radio" name="question2" value="TEACHER">D.TEACHER</p>
+             </div>
+             <div>
+                <p>3.What is your favourite cuisine?</p>
+   <p><input type="radio" name="question3" value="INDIAN">A.INDIAN</p>
+   <p><input type="radio" name="question3" value="ITALIAN">B.ITALIAN</p>
+   <p><input type="radio" name="question3" value="CHINESE">C.CHINESE</p>
+   <p><input type="radio" name="question3" value="JAPANESE">D.JAPANESE</p>
+                </div>
+                <div>
+                    <p>4.Which sports do you like the most?</p>
+       <p><input type="radio" name="question4" value="CRICKET">A.CRICKET</p>
+       <p><input type="radio" name="question4" value="FOOTBALL">B.FOOTBALL</p>
+       <p><input type="radio" name="question4" value="BADMINTON">C.BADMINTON</p>
+       <p><input type="radio" name="question4" value="HOCKEY">D.HOCKEY</p>
+                    </div>
+                    <div>
+                        <p>5.Which genre of movies do you like?</p>
+           <p><input type="radio" name="question5" value="ACTION">A.ACTION</p>
+           <p><input type="radio" name="question5" value="THRILLER">B.THRILLER</p>
+           <p><input type="radio" name="question5" value="COMEDY">C.COMEDY</p>
+           <p><input type="radio" name="question5" value="HORROR">D.HORROR</p>
+                        </div>
+                        <div>
+                            <form>
+                                <input type="button" value="Submit"  onclick="fun()">
+                                <input type="button" value="Reset"  onclick="fun1()">
+                                </form>
+                        </div>
+                        <div class="image-section">
+                            <img src="polls.image.png">
+                        </div>
+             
+         </form>
+         <style>
+             body{
+                 background-color: rgb(222, 202, 247);
+                 color: black;
+                 font-size: 20px;
+                 font-weight: bolder;
+                 margin-left: 2rem;
+             }
+             input[type="button"]{
+                 background-color: rgb(207, 177, 57);
+                 color: white;
+                 font-size: 18px;
+                 padding: 5px;
+             }
+             .image-section{
+                 margin-top: -1050px;
+                 margin-right: 100px;
+                
+                float: right;
+                width: 50%;
+            }
+            .image-section img{
+             width: 100%;
+             height: auto; 
+            }
+            h3{
+  font-family:'Times New Roman', Times, serif; 
+  font-size: 30pt;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:black;
+  text-align: center; 
+    text-decoration: underline;;
+    margin-right: 1100px;
+
+}
+
+         </style>
+     </body>
+ </html>
